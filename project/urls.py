@@ -19,5 +19,5 @@ from django.urls import include, path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('text_analyze/', include('text_analyze.urls')),  # Includes the URLs for the chatgpt app
+    path('', include('text_analyze.urls')),  # Includes the URLs for the chatgpt app
 ]
