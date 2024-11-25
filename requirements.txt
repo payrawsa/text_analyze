@@ -1,0 +1,5 @@
+django
+openai
+gunicorn
+python-dotenv
+assemblyai
